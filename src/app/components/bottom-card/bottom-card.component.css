@@ -1,6 +1,6 @@
 .bottom {
     margin: 5em 0;
-    padding-bottom: 5em;
+    padding-bottom: 10em;
 }
 
 .card-content {
@@ -11,4 +11,10 @@
 .example-full-width {
     height: 5em;
     margin: 1em 2em;
+}
+
+.last-one {
+    text-align: right;
+    padding: 2em 1em 1em 0;
+    color: #BE0202;
 }
