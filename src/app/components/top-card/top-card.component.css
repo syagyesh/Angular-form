@@ -1,0 +1,82 @@
+.photo {
+    height: 9em;
+    width: 9em;
+    background: #E0F2FE;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.card-content {
+    display: grid;
+    grid-template-areas: 
+    "photo first last"
+    "photo dob gender"
+    "exp quali study"
+    "address address mobile"
+    ;
+}
+
+.data {
+    grid-area: photo;
+    padding: 0 0 2em 5em;
+}
+
+.first {
+    grid-area: first;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.last {
+    grid-area: last;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.dob {
+    grid-area: dob;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.gender {
+    grid-area: gender;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.exp {
+    grid-area: exp;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.quali {
+    grid-area: quali;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.study {
+    grid-area: study;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.address {
+    grid-area: address;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.mobile {
+    grid-area: mobile;
+    height: 5em;
+    margin: 0 2em;
+}
+
+.heading {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+

@@ -1,0 +1,58 @@
+<mat-card class="card">
+    <div class="heading">
+        <mat-card-title>Personal Info</mat-card-title>
+    </div>
+    <div class="card-content">
+        <mat-card-content class="data">
+            <div class="photo">Click to upload image</div>
+        </mat-card-content>
+        <mat-form-field class="example-full-width first">
+            <mat-label>First Name:</mat-label>
+            <input matInput placeholder="Enter First Name">
+        </mat-form-field>
+        <mat-form-field class="example-full-width last">
+            <mat-label>Last Name:</mat-label>
+            <input matInput placeholder="Enter Last Name">
+        </mat-form-field>
+        <mat-form-field class="example-full-width dob">
+            <mat-label>DOB:</mat-label>
+            <input matInput placeholder="DD/MM/YYYY">
+        </mat-form-field>
+        <mat-form-field class="example-full-width gender">
+            <mat-label>Gender:</mat-label>
+            <input matInput placeholder="M/F">
+        </mat-form-field>
+        <mat-form-field class="example-full-width exp">
+            <mat-label>Prior Work Experience in Months *</mat-label>
+            <mat-select>
+              <mat-option *ngFor="let work of works" [value]="work.value">
+                {{work.viewValue}}
+              </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="example-full-width quali">
+            <mat-label>Highest Educational Qualification *</mat-label>
+            <mat-select>
+              <mat-option *ngFor="let work of works" [value]="work.value">
+                {{work.viewValue}}
+              </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="example-full-width study">
+            <mat-label>Field of Study *</mat-label>
+            <mat-select>
+              <mat-option *ngFor="let work of works" [value]="work.value">
+                {{work.viewValue}}
+              </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="example-full-width address">
+            <mat-label>Address:</mat-label>
+            <input matInput placeholder="Enter Address">
+        </mat-form-field>
+        <mat-form-field class="example-full-width mobile">
+            <mat-label>Mobile No:</mat-label>
+            <input matInput placeholder="Enter Number">
+        </mat-form-field>
+    </div>
+</mat-card>
