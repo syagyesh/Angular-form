@@ -1,0 +1,73 @@
+<div class="mid">
+    <mat-card class="card">
+        <div class="heading">
+            <mat-card-title>Professional Info</mat-card-title>
+        </div>
+        <div class="card-content">
+            <mat-form-field class="example-full-width">
+                <mat-label>Title *</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let work of works" [value]="work.value">
+                    {{work.viewValue}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Role *</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let work of works" [value]="work.value">
+                    {{work.viewValue}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="example-full-width last">
+                <mat-label>Work email:</mat-label>
+                <input matInput placeholder="Enter Email:">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Cohort Year *</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let work of works" [value]="work.value">
+                    {{work.viewValue}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Placement City *</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let work of works" [value]="work.value">
+                    {{work.viewValue}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Manager email:</mat-label>
+                <input matInput placeholder="email">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Tenure at TFI in months *</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let work of works" [value]="work.value">
+                    {{work.viewValue}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Departmnet *</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let work of works" [value]="work.value">
+                    {{work.viewValue}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Employee status *</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let work of works" [value]="work.value">
+                    {{work.viewValue}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </mat-card>
+</div>

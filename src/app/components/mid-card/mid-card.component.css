@@ -1,0 +1,13 @@
+.mid {
+    margin: 5em 0;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.example-full-width {
+    height: 5em;
+    margin: 1em 2em;
+}

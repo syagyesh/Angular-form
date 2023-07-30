@@ -11,12 +11,14 @@ import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatSelectModule} from '@angular/material/select';
+import { MidCardComponent } from './components/mid-card/mid-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopCardComponent
+    TopCardComponent,
+    MidCardComponent
   ],
   imports: [
     BrowserModule,
