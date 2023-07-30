@@ -12,13 +12,15 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatSelectModule} from '@angular/material/select';
 import { MidCardComponent } from './components/mid-card/mid-card.component';
+import { BottomCardComponent } from './components/bottom-card/bottom-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TopCardComponent,
-    MidCardComponent
+    MidCardComponent,
+    BottomCardComponent
   ],
   imports: [
     BrowserModule,
